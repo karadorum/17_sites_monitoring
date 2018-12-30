@@ -4,6 +4,7 @@ This script gets urls from a text file and returns an information about every gi
 
 The path of text file containing urls is the positional argument of the script.
 
+# Quick Start
 To run script on Linux:
 ```bash
 
