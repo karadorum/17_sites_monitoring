@@ -5,11 +5,11 @@ This script gets urls from a text file and returns an information about every gi
 The path of text file containing urls is the positional argument of the script.
 
 To run script on Linux:
-`
+```bash
 
 $ python check_sites_health.py sites.txt
 http://google.com status: OK, days before expiration: more than 30
-`
+```
 
 Windows usage is the same.
 
