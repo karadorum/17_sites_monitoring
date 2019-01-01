@@ -46,5 +46,5 @@ if __name__ == '__main__':
     for url in urls_list:
         url_status = is_server_respond_with_200(url)
         exp_status = check_expiration_date(url)
-        print(url, 'status: {},
-              days before expiration: {}'.format(url_status, exp_status))
+        print(url, 'status: {}'.format(url_status), 
+                   'days before expiration: {}'.format(exp_status))
