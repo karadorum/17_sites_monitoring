@@ -20,7 +20,7 @@ def load_urls4check(path):
 def is_server_respond_with_200(url):
     response = requests.get(url)
     if response.ok:
-        return ('OK')
+        return 'OK'
     else:
         return response.status_code
 
